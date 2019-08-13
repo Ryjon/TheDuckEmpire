@@ -8,24 +8,24 @@ module.exports.run = async (bot, message, args) => {
 if(!args[2]) return message.reply("Thats not a question");
 
 
-let type = args.slice(1);
+let type = args;
 if (type = "why") {
 
 let replies = ["yes","No","Impossible to tell","Ask again later"];
-};
-if (type = "who") {
+}
+else if (type = "who") {
 
 let replies = ["yes","No","Impossible to tell","Ask again later"];
-};
-if (type = "where") {
+}
+else if (type = "where") {
 
 let replies = ["yes","No","Impossible to tell","Ask again later"];
-};
-if (type = "when") {
+}
+else if (type = "when") {
 
 let replies = ["yes","No","Impossible to tell","Ask again later"];
-};
-if (type = "how") {
+}
+else if (type = "how") {
 
 let replies = ["yes","No","Impossible to tell","Ask again later"];
 };

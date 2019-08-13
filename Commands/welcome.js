@@ -4,7 +4,7 @@ const ms = require("ms");
 
 module.exports.run = async (bot, message, args) => {
 
-//insert comands here
+//insert comands here FIX MEEEEEEEEEEEEEE
 
 
 }
